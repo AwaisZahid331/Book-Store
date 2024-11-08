@@ -1,0 +1,110 @@
+/* .reservedbooks-container{
+   
+    background-color: #06131f;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.reservedbooks-table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 1024px;
+    margin: 0px auto;
+    padding: 15px!important;
+}
+  
+.reservedbooks-table td,.reservedbooks-table th {
+    border: 2px solid #696969;
+    text-align: left;
+    padding: 8px;
+    background-color: #dddddd;
+}
+
+.reservedbooks-title{
+    position: relative;
+    color: white;
+    text-align: center;
+    font-size: 32px;
+} */
+
+/* ReservedBooks.css */
+
+/* ReservedBooks.css */
+
+.reservedbooks-container {
+    max-width: 100%;
+    margin: 30px auto;
+    padding: 30px;
+    background-image: linear-gradient(to right, #181717 0%, black 100%);
+    /* border-radius: 8px; */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+.reservedbooks-container:hover {
+    transform: scale(1.02);
+}
+
+.reservedbooks-title {
+    font-size: 2.5em;
+    color: #ffffff; /* White for contrast */
+    text-align: center; /* Center alignment */
+    margin-bottom: 25px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.reservedbooks-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+td a{
+    text-decoration: none;
+    color: #000;
+}
+
+.reservedbooks-table th, .reservedbooks-table td {
+    background-color: #333333;
+    padding: 15px;
+    text-align: left;
+    font-size: 1em;
+}
+
+.reservedbooks-table th {
+    background-color: #0d6efd; /* Professional blue for header */
+    color: #ffffff;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 1.1em;
+    border: 1px solid #dee2e6;
+}
+
+.reservedbooks-table td {
+    border: 1px solid #dee2e6;
+    background-color: #f8f9fa;
+    color: #333333; /* Dark text for readability */
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.reservedbooks-table tr:hover td {
+    background-color: #0d6efd;
+    color: #ffffff;
+}
+
+.reservedbooks-table tr:nth-child(even) td {
+    background-color: #e9ecef;
+}
+
+.reservedbooks-table tr {
+    transition: transform 0.2s ease-in-out;
+}
+
+.reservedbooks-table tr:hover {
+    transform: translateX(5px);
+}

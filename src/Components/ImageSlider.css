@@ -1,0 +1,41 @@
+
+
+img{
+    width: auto;
+    height: 500px;
+}
+
+/* Mobile View */
+@media screen and (max-width:768px){
+    img{
+        height: 250px;
+    }
+}
+.slider {
+    position: relative;
+}
+
+.welcome-message {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;  /* Adjust the color for readability */
+    z-index: 10;  /* Ensure the message is above the carousel */
+    background-color: rgba(0, 0, 0, 0.5);  /* Optional, to enhance text readability */
+    padding: 30px;
+    max-width: 100%; 
+    width: 1180px;
+}
+
+.welcome-message h2 {
+    font-size: 2rem;  /* Increase the font size */
+    margin-bottom: 20px;
+}
+
+.welcome-message p {
+    font-size: 1.2rem;  /* Increase the font size */
+    line-height: 1.6;   /* Increase the line height for better readability */
+    margin-bottom: 20px;
+}
