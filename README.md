@@ -70,7 +70,7 @@ Show some ❤️ and 🌟 the repo to support the project
 ## Screenshots
 
 ![1](https://i.postimg.cc/63FDFqm6/1.png)
-![2](https://user-images.githubusercontent.com/73348574/205632416-bfcc2c19-3f70-4688-bb7e-0ccd83be3038.png)
+![2](https://i.postimg.cc/PrWBFtzh/2.png)
 ![3](https://user-images.githubusercontent.com/73348574/205632598-6b009820-20ec-4e9f-92bf-00af92d4f1a4.png)
 ![4](https://user-images.githubusercontent.com/73348574/205632198-d99fcc8d-903d-4b60-9cec-56f8e0716290.png)
 <!-- ![5](https://user-images.githubusercontent.com/73348574/205631397-2793e97e-3cc6-4b60-8ee1-ec81716b9d6d.png) -->
